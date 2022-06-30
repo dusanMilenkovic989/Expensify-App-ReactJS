@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render PrivateRoute correctly when user is authenticated 1`] = `
+<div>
+  <Connect(Header) />
+  <ExpenseDashboardPage />
+</div>
+`;
+
+exports[`Should render PrivateRoute correctly when user is not authenticated 1`] = `
+<Navigate
+  to="/"
+/>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render PublicRoute correctly when user is authenticated 1`] = `
+<Navigate
+  to="/dashboard"
+/>
+`;
+
+exports[`Should render PublicRoute correctly when user is not authenticated 1`] = `<ExpenseLoginPage />`;
