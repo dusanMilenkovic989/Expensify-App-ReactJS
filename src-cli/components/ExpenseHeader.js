@@ -16,7 +16,7 @@ export const ExpenseHeader = ({ expenses }) => {
     return (
         <div className="page-header">
             <div className="content-container">  
-                {expenses.length > 0 && message}
+                {message}
                 <div className="page-header__actions">
                     <Link className="button" to="/create">Add Expense</Link>
                 </div>

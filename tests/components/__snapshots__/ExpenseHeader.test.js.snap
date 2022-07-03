@@ -7,6 +7,20 @@ exports[`Should not render ExpenseHeader if no expenses are present 1`] = `
   <div
     className="content-container"
   >
+    <h1
+      className="page-header__title"
+    >
+      Viewing 
+      <span>
+        0
+      </span>
+       expense
+      s
+      , totalling 
+      <span>
+        0,00 RSD
+      </span>
+    </h1>
     <div
       className="page-header__actions"
     >

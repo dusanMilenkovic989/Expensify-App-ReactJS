@@ -17,3 +17,7 @@
 .button--secondary {
     background: $grey;
 }
+
+.button--home {
+    background: lighten($dark-blue, 25%);
+}
